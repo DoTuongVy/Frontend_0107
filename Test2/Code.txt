@@ -1,0 +1,66 @@
+//! =================================================================
+//! Code HTML , CSS , JS
+//  
+//! =================================================================
+
+
+
+<div class="dashboard">
+    <h1>Dashboard Nội Bộ</h1>
+    <button>Đổi màu nền</button>
+  </div>
+
+
+--------------------------------------------------------
+
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  background-color: #fdfdfd;
+  margin: 0;
+  padding: 40px;
+}
+
+.dashboard {
+  padding: 20px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: #DAC254;
+  color: #21409A;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c4ad45;
+}
+
+
+
+
+------------------------------------------------------
+
+
+
+function changeBg() {
+  const colors = ['#f0f8ff', '#ffe4e1', '#e6f9ff', '#fff5e1'];
+  const color = colors[Math.floor(Math.random() * colors.length)];
+  document.body.style.backgroundColor = color;
+}
+

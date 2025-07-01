@@ -1,0 +1,12 @@
+======YÊU CẦU TEST 2======
+
+1. Tạo folder pages để chứa file html 
+2. Tạo folder assets. Trong folder tạo folder css, js, images (chứa file css, js, ảnh)
+3. Kéo ảnh logo ở ngoài thư mục vào thư mục images
+4. Copy code mẫu vào file tương ứng
+5. Ở html, trước thẻ <h1> thêm 1 thẻ img vào để chèn ảnh, đặt tên class cho img là "logo". Lấy ảnh logo trong folder images
+6. Gán ở button lệnh onclick để chạy hàm JS
+
+
+======KẾT QUẢ======
+Bấm button mà đổi màu là đúng

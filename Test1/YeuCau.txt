@@ -1,3 +1,9 @@
-1. Tạo file ở folder Test1 để đưa code mẫu vào
-2. Ở html, trước thẻ <h2> thêm 1 thẻ img vào để chèn ảnh . Lấy ảnh avt trong folder images
+======YÊU CẦU TEST 1======
+
+1. Tạo file html, css, js ở folder Test1 để đưa code mẫu vào
+2. Ở html, trước thẻ <h2> thêm 1 thẻ img vào để chèn ảnh , đặt tên class cho img là "avatar". Lấy ảnh avt trong folder images
 3. Gán ở button lệnh onclick để chạy hàm JS
+
+
+======KẾT QUẢ======
+Bấm button hiện ra bảng thông báo là đúng
