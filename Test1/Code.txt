@@ -1,0 +1,69 @@
+//! =================================================================
+//! Code HTML , CSS , JS
+//  
+//! =================================================================
+
+
+<div class="card">    
+    <h2 class="name">Nguyễn Văn A</h2>
+    <button>Chào tôi</button>
+  </div>
+
+
+-----------------------------------------------------------------------
+
+
+  body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  margin-top: 15px;
+  font-size: 24px;
+  color: #333;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #21409A;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1b3278;
+}
+
+
+
+-----------------------------------------------------------------------
+
+
+
+function sayHello() {
+  const name = document.querySelector(".name").textContent;
+  alert("Xin chào, tôi là " + name + "!");
+}
